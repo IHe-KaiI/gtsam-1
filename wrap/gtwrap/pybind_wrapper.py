@@ -623,6 +623,7 @@ class PybindWrapper:
         print(content)
         print(module_name)
         print(submodules)
+        print(1)
         # Parse the contents of the interface file
         module = parser.Module.parseString(content)
         # Instantiate all templates
