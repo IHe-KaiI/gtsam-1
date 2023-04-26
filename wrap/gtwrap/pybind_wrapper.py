@@ -620,6 +620,9 @@ class PybindWrapper:
             module_name: The name of the module.
             submodules: List of other interface file names that should be linked to.
         """
+        print(content)
+        print(module_name)
+        print(submodules)
         # Parse the contents of the interface file
         module = parser.Module.parseString(content)
         # Instantiate all templates
